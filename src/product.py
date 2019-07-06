@@ -12,11 +12,11 @@ class Product:
 		self.name = self.name[:-1]
 		# Set the default number of orders to zero 
 		self.order = 0
-	pass
+		pass
 
 	def addOrder(self):
 		self.order += 1
-	pass
+		pass
 
 	def getOrder(self):
 		return self.order
